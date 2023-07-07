@@ -1,15 +1,23 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
+  background: #2F2E41;
 }
 
 .container {
-  background: #2F2E41;
+  
   width: 1280px;
   padding-top: 71px; 
   margin-bottom: 23px;
   margin: 0 auto ;
-  height: 720px;
+ 
  
 }
 
@@ -76,7 +84,6 @@ section p{
 
 .line {
   width: 568px;
-  height: 0px;
   border: 1px solid #00BFA6;
   margin: 167px auto 27px;
 }
@@ -110,8 +117,9 @@ footer a:hover {
 
 #imagem {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 0px;
+  left: 0px;
+  margin: 20px;
 
 }
   
